@@ -1,0 +1,91 @@
+:root{
+    --laranja: #ff8800d7;
+    --inter: #FF8700;
+    --azul: #19FFE3;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/assets/Illustration.png) no-repeat;
+    background-size: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: 1%;
+    font-family: 'Inter', 'Arial';
+    font-size: 16px;
+}
+
+header .logo{
+    align-items: center;
+    margin-left: 20px;
+    width: 18x;
+    height: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--preto);
+    margin-left: 30px;
+    font-family: 'Sora' sans-serif;
+    font-size: 16px;
+}
+
+header nav a:hover{
+    color: var(--laranja);
+}
+
+.novidade{
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    width: 500px;
+    margin: 5%;
+    margin-top: 12%;
+    margin-bottom: 1px;
+}
+
+.novidade h1{
+    font-family: 'Sora', sans-serif;
+    font-size: 28px;
+}
+
+.agora{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+.applepay{
+    background: var(--inter);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--branco);
+    border: solid 1px transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 7px 20px;
+    padding-top: 7px;
+    transition: .3s ease all;
+    margin: 5%;
+    margin-top: 25px;
+}
+
+.applepay:hover{
+    background: var(--laranja);
+}
+
+.applepay i{
+    margin-right: 8px;
+}
